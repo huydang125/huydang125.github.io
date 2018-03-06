@@ -101,7 +101,7 @@ var appRoutes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_10__home_home_component__["a" /* HomeComponent */] },
     { path: 'list', component: __WEBPACK_IMPORTED_MODULE_7__list_list_component__["a" /* ListComponent */] },
     { path: 'createUpdate', component: __WEBPACK_IMPORTED_MODULE_6__create_update_create_update_component__["a" /* CreateUpdateComponent */] },
-    { path: '**', redirectTo: 'home', pathMatch: 'full' }
+    { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
